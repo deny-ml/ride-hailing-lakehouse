@@ -2,7 +2,7 @@
 
 An end-to-end Data Engineering pipeline built to analyze the correlation between geospatial weather conditions and ride-hailing delivery delays. This project applies Medallion Architecture (Bronze, Silver, Gold) to process simulated logistics data and live API weather data, providing actionable insights for transportation operational monitoring and surge pricing strategies.
 
-## 🛠️ Technology Stack
+## Technology Stack
 *   **Orchestration:** Apache Airflow (Dockerized)
 *   **Data Lake Storage:** Azure Blob Storage
 *   **Processing Engine:** Databricks (Serverless PySpark & Pandas)
