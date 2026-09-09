@@ -1,4 +1,3 @@
-<img width="505" height="191" alt="Screenshot 2026-09-10 013720" src="https://github.com/user-attachments/assets/2ac39b63-c450-4b95-aeec-d9a03e7b7462" />
 # Ride-Hailing & Weather Data Lakehouse 
 
 An end-to-end Data Engineering pipeline built to analyze the correlation between geospatial weather conditions and ride-hailing delivery delays. This project applies Medallion Architecture (Bronze, Silver, Gold) to process simulated logistics data and live API weather data, providing actionable insights for transportation operational monitoring and surge pricing strategies.
@@ -45,3 +44,8 @@ Before executing the pipeline, replace the dummy placeholders in the code with y
 * Go to **Admin > Variables** and securely store your Azure connection string with the key `azure_conn_str`.
 * Go to **Admin > Connections**, create a new connection named `databricks_conn`, and input your Databricks Host URL and Personal Access Token (PAT).
 * Unpause and trigger the `ride_hailing_lakehouse` DAG to start the pipeline.
+
+## Final Output (Serving Layer)
+The transformed and aggregated data is successfully loaded into a local PostgreSQL database, creating a clean, analytics-ready table for BI consumption.
+
+<img width="505" height="191" alt="Screenshot 2026-09-10 013720" src="https://github.com/user-attachments/assets/2ac39b63-c450-4b95-aeec-d9a03e7b7462" />
