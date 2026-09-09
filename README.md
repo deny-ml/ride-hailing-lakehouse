@@ -1,3 +1,4 @@
+<img width="505" height="191" alt="Screenshot 2026-09-10 013720" src="https://github.com/user-attachments/assets/2ac39b63-c450-4b95-aeec-d9a03e7b7462" />
 # Ride-Hailing & Weather Data Lakehouse 
 
 An end-to-end Data Engineering pipeline built to analyze the correlation between geospatial weather conditions and ride-hailing delivery delays. This project applies Medallion Architecture (Bronze, Silver, Gold) to process simulated logistics data and live API weather data, providing actionable insights for transportation operational monitoring and surge pricing strategies.
