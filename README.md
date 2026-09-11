@@ -43,7 +43,7 @@ Before executing the pipeline, replace the dummy placeholders in the code with y
 * **In `notebooks/ride_hailing_transformation.py`:** Replace `CONNECTION_STRING_AZURE` with your actual Azure Blob Storage connection string.
 
 **5. Docker Execution & Airflow Connections**
-* Run `docker-compose up -d` in your terminal to spin up the Airflow and PostgreSQL containers.
+* Run `docker compose up airflow-init` & `docker-compose up -d` in your terminal to spin up the Airflow and PostgreSQL containers.
 * Access the Airflow UI at `http://localhost:8080`.
 * Go to **Admin > Variables** and securely store your Azure connection string with the key `azure_conn_str`.
 * Go to **Admin > Connections**, create a new connection named `databricks_conn`, and input your Databricks Host URL and Personal Access Token (PAT).
