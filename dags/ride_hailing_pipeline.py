@@ -78,17 +78,10 @@ def load_gold_to_postgres():
 task_ingest_logistics = PythonOperator(task_id='ingest_logistics', python_callable=generate_mock_logistics, dag=dag)
 task_ingest_weather = PythonOperator(task_id='ingest_weather', python_callable=fetch_weather_data, dag=dag)
 
-notebook_task = {
-    'existing_cluster_id': 'JOB_ID',
-    'notebook_task': {
-        'notebook_path': '/Users/EMAIL/ride_hailing_transformation',
-    }
-}
-
 task_run_databricks = DatabricksRunNowOperator(
     task_id='transform_silver_gold',
     databricks_conn_id='databricks_conn',
-    job_id=708018447892694, 
+    job_id=JOB_ID, 
     dag=dag
 )
 
