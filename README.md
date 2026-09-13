@@ -52,4 +52,5 @@ Before executing the pipeline, replace the dummy placeholders in the code with y
 ## Final Output (Serving Layer)
 The transformed and aggregated data is successfully loaded into a local PostgreSQL database, creating a clean, analytics-ready table for BI consumption.
 
-<img width="505" height="191" alt="Screenshot 2026-09-10 013720" src="https://github.com/user-attachments/assets/2ac39b63-c450-4b95-aeec-d9a03e7b7462" />
+<img width="647" height="480" alt="Screenshot 2026-09-13 201214" src="https://github.com/user-attachments/assets/dd8bb162-0a6e-4714-98d0-541b7b56e5bc" />
+
