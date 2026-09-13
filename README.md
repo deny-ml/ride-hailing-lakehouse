@@ -39,7 +39,7 @@ An end-to-end Data Engineering pipeline built to analyze the correlation between
 
 **4. Update Code Placeholders (Identity Mapping)**
 Before executing the pipeline, replace the dummy placeholders in the code with your actual credentials and identifiers:
-* **In `dags/ride_hailing_pipeline.py`:** Replace `JOB_ID` with the Databricks Job ID you generated. If your operator configuration still uses absolute workspace paths, ensure your `EMAIL` or Workspace Path is updated to match your Databricks login email.
+* **In `dags/ride_hailing_pipeline.py`:** Replace `JOB_ID` with the Databricks Job ID you generated. 
 * **In `notebooks/ride_hailing_transformation.py`:** Replace `CONNECTION_STRING_AZURE` with your actual Azure Blob Storage connection string.
 
 **5. Docker Execution & Airflow Connections**
